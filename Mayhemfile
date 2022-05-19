@@ -1,0 +1,5 @@
+project: jbgreenh/rapidcsv
+target: fuzzcsv
+
+cmds:
+  - cmd: /fuzzcsv @@
