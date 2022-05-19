@@ -1,5 +1,8 @@
 project: jbgreenh/rapidcsv
 target: fuzzcsv
 
+tests:
+  - file://tests-mayhem
+
 cmds:
   - cmd: /fuzzcsv @@
