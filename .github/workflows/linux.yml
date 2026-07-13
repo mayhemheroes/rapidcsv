@@ -1,13 +1,6 @@
 name: Linux
 
-on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - main
-      - dev/*
-
+on: workflow_dispatch
 jobs:
   linux-build:
     runs-on: ubuntu-latest

@@ -1,13 +1,6 @@
 name: macOS
 
-on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - main
-      - dev/*
-
+on: workflow_dispatch
 jobs:
   mac-build:
     runs-on: macos-latest
