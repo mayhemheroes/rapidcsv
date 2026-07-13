@@ -1,0 +1,9 @@
+project: rapidcsv
+target: fuzzcsv
+
+cmds:
+  - cmd: /mayhem/build/fuzzcsv
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzzcsv/testsuite
